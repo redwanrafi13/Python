@@ -1,0 +1,10 @@
+from datetime import datetime
+
+def get_current_date():
+    return datetime.now().strftime("%d-%m-%Y")
+
+def get_current_time():
+    return datetime.now().strftime("%H-%M-%S")
+
+print("the current date is:",get_current_date())
+print("the current time is:",get_current_time())
